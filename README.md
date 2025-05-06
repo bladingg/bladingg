@@ -1,6 +1,6 @@
 <!-- Puedes cambiar la URL de la imagen por la que prefieras -->
 <p align="center">
-  <img src="https://es.pngtree.com/so/black-clover" width="100%" />
+  <img src="https://github.com/bladingg/bladingg/blob/main/1380401.png" width="100%" />
 </p>
 
 # ¡Hola! 👋 Soy bladiing
