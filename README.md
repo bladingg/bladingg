@@ -11,6 +11,6 @@ Aquí estaré subiendo varios tipos de códigos de programación con el pasar de
 <p align="center">
   <a href="https://instagram.com/tu_usuario" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="30" style="vertical-align:middle;"/>
-    @tu_usuario
+    @mxxcolll
   </a>
 </p>
