@@ -1,16 +1,15 @@
-## Hi there 👋
+<!-- Puedes cambiar la URL de la imagen por la que prefieras -->
+<p align="center">
+  <img src="https://wall.alphacoders.com/big.php?i=1380401" width="100%" />
+</p>
 
-<!--
-**bladingg/bladingg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# ¡Hola! 👋 Soy bladiing
 
-Here are some ideas to get you started:
+Bienvenido a mi perfil de GitHub.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Pronto dare mas informacion sobre mi
+
+<!-- Aquí puedes agregar más información sobre ti -->
+
+
+
