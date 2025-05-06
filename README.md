@@ -1,6 +1,6 @@
 <!-- Puedes cambiar la URL de la imagen por la que prefieras -->
 <p align="center">
-  <img src="https://wall.alphacoders.com/big.php?i=1380401" width="100%" />
+  <img src="https://es.pngtree.com/so/black-clover" width="100%" />
 </p>
 
 # ¡Hola! 👋 Soy bladiing
