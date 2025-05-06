@@ -6,8 +6,11 @@
 
 Bienvenido a mi perfil de GitHub.
 
-Aqui estare subiendo varios tipos de codigos de programacion con el pasar del tiempo.
+Aquí estaré subiendo varios tipos de códigos de programación con el pasar del tiempo.
 
-
-
-<!-- Aquí puedes agregar más información sobre ti --
+<p align="center">
+  <a href="https://instagram.com/tu_usuario" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="30" style="vertical-align:middle;"/>
+    @tu_usuario
+  </a>
+</p>
