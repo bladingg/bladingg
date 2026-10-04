@@ -62,7 +62,6 @@ La universidad enfrentaba caos y aglomeraciones en los pasillos al momento de ma
 
 | | |
 | --- | --- |
-| **Desarrolladores** | Christian Salazar Sandoval y Maicol Aracena Saavedra |
 | **Institución** | Universidad Central (Sede Coquimbo) |
 | **Área de aplicación** | Admisión, Registro Curricular y Matrículas |
 | **Estado** | Entregado y listo para implementarse en un futuro |
