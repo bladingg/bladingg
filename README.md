@@ -77,35 +77,11 @@ La universidad enfrentaba caos y aglomeraciones en los pasillos al momento de ma
 
 ---
 
-## 📊 Estadísticas de GitHub
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=bladiing&show_icons=true&theme=default&hide_border=true" alt="Estadísticas" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bladiing&layout=compact&hide_border=true" alt="Lenguajes más usados" />
-
-</div>
-
----
-
 ## 🎯 Lo que busco
 
 - Seguir creciendo como desarrollador con proyectos cada vez más completos
 - Reforzar mis bases en algoritmos, estructuras de datos y buenas prácticas
 - Hacer mi práctica profesional y trabajar en equipos de desarrollo
-
----
-
-## 📫 Contacto
-
-<p>
-  <a href="https://www.linkedin.com/in/TU-USUARIO">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:tucorreo@ejemplo.com">
-    <img src="https://img.shields.io/badge/Correo-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo" />
-  </a>
-</p>
 
 <div align="center">
 
