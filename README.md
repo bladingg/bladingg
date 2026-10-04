@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=1E5AA8&center=true&vCenter=true&width=600&lines=%C2%A1Hola%2C+soy+bladiing!+%F0%9F%91%8B;Estudiante+de+Ingenier%C3%ADa+Civil+en+Inform%C3%A1tica;Aprendiendo+y+construyendo+cada+d%C3%ADa" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=1E5AA8&center=true&vCenter=true&width=600&lines=%C2%A1Hola%2C+soy+bladiing!" alt="Typing SVG" />
 
 <br>
 
