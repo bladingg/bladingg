@@ -1,42 +1,70 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250">
   <defs>
+    <!-- background: shifts between purple and crimson -->
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#0D0B14"/>
-      <stop offset="55%" stop-color="#3C096C"/>
-      <stop offset="100%" stop-color="#7B2CBF"/>
+      <stop offset="45%" stop-color="#3C096C">
+        <animate attributeName="stop-color" values="#3C096C;#5A0A2E;#3C096C" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="75%" stop-color="#7B2CBF">
+        <animate attributeName="stop-color" values="#7B2CBF;#9D0208;#7B2CBF" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#9D0208">
+        <animate attributeName="stop-color" values="#9D0208;#7B2CBF;#9D0208" dur="8s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
+
+    <!-- name: pale lilac to rose -->
     <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#E9D8FD"/>
-      <stop offset="100%" stop-color="#C77DFF"/>
+      <stop offset="100%" stop-color="#C77DFF">
+        <animate attributeName="stop-color" values="#C77DFF;#FF4D6D;#C77DFF" dur="6s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
+
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
     <style>
-      .mark { opacity: 0.10; }
       .jp { font-family: 'Yu Mincho', 'Hiragino Mincho ProN', 'Noto Serif JP', 'MS Mincho', serif; }
     </style>
   </defs>
 
-  <!-- background wave -->
-  <path fill="url(#bg)" d="M0,0 H1200 V190 C1000,245 820,170 600,205 C380,240 200,170 0,215 Z"/>
-  <path fill="#9D4EDD" opacity="0.18" d="M0,200 C220,160 400,230 620,195 C840,160 1010,230 1200,180 V190 C1000,245 820,170 600,205 C380,240 200,170 0,215 Z"/>
+  <!-- back wave (crimson) -->
+  <path fill="#C9184A" opacity="0.55" d="M0,0 H1200 V200 C1000,250 820,185 600,218 C380,250 200,182 0,226 Z">
+    <animate attributeName="d" dur="9s" begin="-1.2s" repeatCount="indefinite"
+      values="M0,0 H1200 V200 C1000,250 820,185 600,218 C380,250 200,182 0,226 Z;
+              M0,0 H1200 V222 C1000,182 820,250 600,208 C380,178 200,246 0,207 Z;
+              M0,0 H1200 V200 C1000,250 820,185 600,218 C380,250 200,182 0,226 Z"/>
+  </path>
+
+  <!-- main wave -->
+  <path fill="url(#bg)" d="M0,0 H1200 V190 C1000,245 820,170 600,205 C380,240 200,170 0,215 Z">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="M0,0 H1200 V190 C1000,245 820,170 600,205 C380,240 200,170 0,215 Z;
+              M0,0 H1200 V210 C1000,170 820,240 600,195 C380,165 200,235 0,195 Z;
+              M0,0 H1200 V190 C1000,245 820,170 600,205 C380,240 200,170 0,215 Z"/>
+  </path>
 
   <!-- vertical kanji watermarks: 諦めない (never give up) -->
-  <text class="mark jp" x="1110" y="40" fill="#E9D8FD" font-size="32" writing-mode="tb" letter-spacing="4">諦めない</text>
-  <text class="mark jp" x="90" y="40" fill="#E9D8FD" font-size="32" writing-mode="tb" letter-spacing="4">諦めない</text>
+  <text class="jp" x="90" y="40" fill="#E9D8FD" font-size="32" writing-mode="tb" letter-spacing="4" opacity="0.12">諦めない<animate attributeName="opacity" values="0.12;0.22;0.12" dur="5s" repeatCount="indefinite"/></text>
+  <text class="jp" x="1110" y="40" fill="#FFD6DE" font-size="32" writing-mode="tb" letter-spacing="4" opacity="0.12">諦めない<animate attributeName="opacity" values="0.12;0.22;0.12" dur="5s" begin="2.5s" repeatCount="indefinite"/></text>
 
   <!-- name -->
-  <text x="600" y="86" text-anchor="middle" fill="url(#txt)"
+  <text x="600" y="86" text-anchor="middle" fill="url(#txt)" filter="url(#glow)"
         font-family="Cinzel, 'Trajan Pro', Georgia, 'Times New Roman', serif"
         font-size="50" font-weight="700" letter-spacing="4">Hi, I'm Maicol</text>
 
   <!-- degree -->
-  <text x="600" y="124" text-anchor="middle" fill="#C9B6E4"
+  <text x="600" y="124" text-anchor="middle" fill="#D9C4EE"
         font-family="Georgia, 'Times New Roman', serif"
         font-size="19" letter-spacing="3">✦  COMPUTER SCIENCE &amp; INFORMATICS ENGINEERING  ✦</text>
 
   <!-- motto -->
-  <line x1="470" y1="146" x2="730" y2="146" stroke="#C77DFF" stroke-opacity="0.45" stroke-width="1"/>
-  <text x="600" y="174" text-anchor="middle" fill="#E0C3FC" font-size="18" letter-spacing="2">
-    <tspan class="jp" font-size="20">諦めない</tspan>
-    <tspan font-family="Georgia, 'Times New Roman', serif" font-style="italic" dx="10">— Never give up</tspan>
-  </text>
+  <line x1="470" y1="146" x2="730" y2="146" stroke="#FF4D6D" stroke-opacity="0.5" stroke-width="1">
+    <animate attributeName="stroke" values="#FF4D6D;#C77DFF;#FF4D6D" dur="6s" repeatCount="indefinite"/>
+  </line>
+  <text x="600" y="174" text-anchor="middle" fill="#F3D9FA" font-size="18" letter-spacing="2"><tspan class="jp" font-size="20" fill="#FF8FA3">諦めない<animate attributeName="fill" values="#FF8FA3;#E0AAFF;#FF8FA3" dur="6s" repeatCount="indefinite"/></tspan><tspan font-family="Georgia, 'Times New Roman', serif" font-style="italic" dx="10">— Never give up</tspan></text>
 </svg>

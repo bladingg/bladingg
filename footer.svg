@@ -1,13 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="130" viewBox="0 0 1200 130">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7B2CBF"/>
-      <stop offset="45%" stop-color="#3C096C"/>
+      <stop offset="0%" stop-color="#9D0208">
+        <animate attributeName="stop-color" values="#9D0208;#7B2CBF;#9D0208" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="30%" stop-color="#7B2CBF">
+        <animate attributeName="stop-color" values="#7B2CBF;#9D0208;#7B2CBF" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="60%" stop-color="#3C096C">
+        <animate attributeName="stop-color" values="#3C096C;#5A0A2E;#3C096C" dur="8s" repeatCount="indefinite"/>
+      </stop>
       <stop offset="100%" stop-color="#0D0B14"/>
     </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <path fill="url(#bg)" d="M0,45 C200,0 380,70 600,35 C820,0 1000,75 1200,30 V130 H0 Z"/>
-  <text x="600" y="98" text-anchor="middle" fill="#E9D8FD"
+
+  <!-- back wave (crimson) -->
+  <path fill="#C9184A" opacity="0.55" d="M0,30 C200,70 380,5 600,40 C820,75 1000,10 1200,45 V140 H0 Z">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite"
+      values="M0,30 C200,70 380,5 600,40 C820,75 1000,10 1200,45 V140 H0 Z;
+              M0,50 C200,10 380,70 600,30 C820,5 1000,65 1200,25 V140 H0 Z;
+              M0,30 C200,70 380,5 600,40 C820,75 1000,10 1200,45 V140 H0 Z"/>
+  </path>
+
+  <!-- main wave -->
+  <path fill="url(#bg)" d="M0,50 C200,5 380,75 600,40 C820,5 1000,80 1200,35 V140 H0 Z">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="M0,50 C200,5 380,75 600,40 C820,5 1000,80 1200,35 V140 H0 Z;
+              M0,35 C200,75 380,10 600,50 C820,80 1000,15 1200,50 V140 H0 Z;
+              M0,50 C200,5 380,75 600,40 C820,5 1000,80 1200,35 V140 H0 Z"/>
+  </path>
+
+  <text x="600" y="102" text-anchor="middle" fill="#F3D9FA" filter="url(#glow)"
         font-family="Cinzel, Georgia, 'Times New Roman', serif"
         font-size="22" letter-spacing="3">Thanks for visiting</text>
 </svg>
