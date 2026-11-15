@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0D0B14"/>
+      <stop offset="55%" stop-color="#3C096C"/>
+      <stop offset="100%" stop-color="#7B2CBF"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E9D8FD"/>
+      <stop offset="100%" stop-color="#C77DFF"/>
+    </linearGradient>
+    <style>
+      .fade { animation: fade 1.6s ease-out both; }
+      .fade2 { animation: fade 1.6s ease-out 0.5s both; }
+      @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+  </defs>
+  <path fill="url(#bg)" d="M0,0 H1200 V160 C1000,215 820,140 600,175 C380,210 200,140 0,185 Z"/>
+  <path fill="#9D4EDD" opacity="0.18" d="M0,170 C220,130 400,200 620,165 C840,130 1010,200 1200,150 V160 C1000,215 820,140 600,175 C380,210 200,140 0,185 Z"/>
+  <text class="fade" x="600" y="88" text-anchor="middle" fill="url(#txt)"
+        font-family="Cinzel, 'Trajan Pro', Georgia, 'Times New Roman', serif"
+        font-size="50" font-weight="700" letter-spacing="4">Hi, I'm Maicol</text>
+  <text class="fade2" x="600" y="128" text-anchor="middle" fill="#C9B6E4"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="19" letter-spacing="3">✦  COMPUTER SCIENCE &amp; INFORMATICS ENGINEERING  ✦</text>
+</svg>

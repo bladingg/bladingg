@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0B14,55:3C096C,100:7B2CBF&height=170&section=header&text=Hi,%20I'm%20Maicol&fontSize=46&fontColor=E9D8FD&fontAlignY=38&desc=Computer%20Science%20%26%20Informatics%20Engineering&descSize=16&descAlignY=60&animation=fadeIn" alt="Header" width="100%" />
+<img src="header.svg" alt="Header" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=24&duration=3500&pause=1000&color=9D4EDD&center=true&vCenter=true&width=650&lines=Software+Developer+in+Training;Python+%E2%80%A2+Java+%E2%80%A2+C+%E2%80%A2+C%2B%2B;Building+solutions+that+matter" alt="Typing SVG" />
 
@@ -88,6 +88,6 @@ During enrollment, the university faced crowded hallways and disorganized lines.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B2CBF,45:3C096C,100:0D0B14&height=110&section=footer&text=Thanks%20for%20visiting&fontSize=20&fontColor=E9D8FD&fontAlignY=72" alt="Footer" width="100%" />
+<img src="footer.svg" alt="Footer" width="100%" />
 
 </div>

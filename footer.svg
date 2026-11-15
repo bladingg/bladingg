@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="130" viewBox="0 0 1200 130">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7B2CBF"/>
+      <stop offset="45%" stop-color="#3C096C"/>
+      <stop offset="100%" stop-color="#0D0B14"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0,45 C200,0 380,70 600,35 C820,0 1000,75 1200,30 V130 H0 Z"/>
+  <text x="600" y="98" text-anchor="middle" fill="#E9D8FD"
+        font-family="Cinzel, Georgia, 'Times New Roman', serif"
+        font-size="22" letter-spacing="3">Thanks for visiting</text>
+</svg>
